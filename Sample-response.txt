@@ -1,0 +1,32 @@
+User:
+
+what are the 7 visualisations
+
+AI Chatbot:
+
+The seven stages of data visualization are: Acquire, Parse, Filter, Mine, Represent, Refine, and Interact. These stages describe the process of turning raw data into a meaningful visual representation. They are interconnected and influence each other.
+
+User:
+
+tell about mapping
+
+AI Chatbot:
+
+Mapping in data visualization involves representing data on a two-dimensional plot, often using latitude and longitude for geographical data. This process involves iterative refinements to improve clarity and usefulness, and software can automate updates and add layers of information. An example is plotting US zip codes on a map image, using a data file containing their coordinates.
+
+User:
+
+tell about each funtions
+
+AI Chatbot:
+
+`setup()` runs once at the beginning, initializing settings like screen size and background color. `draw()` runs repeatedly, creating animations and handling interactions. `mousePressed()` is called whenever the mouse is pressed.
+
+User:
+
+tell about mousePressed()
+
+AI Chatbot:
+
+The `mousePressed()` method is called automatically whenever the mouse button is pressed. In the given example, the `mousePressed()` function clears the screen using the `background()` command. This happens every time the mouse is pressed.
+
