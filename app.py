@@ -31,7 +31,7 @@ def view_default_file():
     return send_from_directory(os.getcwd(), KNOWLEDGE_BASE_FILE)
 
 # Initialize Gemini model
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro", temperature=0, max_tokens=None, timeout=None)
+llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0, max_tokens=None, timeout=None)
 
 # Define prompt template
 system_prompt = (
